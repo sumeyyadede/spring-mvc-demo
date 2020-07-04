@@ -26,6 +26,12 @@
 	    </form:select>
 		
 		<br><br>
+		
+		Favorite Language:
+
+		<form:radiobuttons path="favoriteLanguage" items="${theFavoriteLanguageOptions}"  />
+		
+		<br><br>
 				
 		<input type="submit" value="Submit" />
 		

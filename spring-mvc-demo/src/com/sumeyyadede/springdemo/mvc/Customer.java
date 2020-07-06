@@ -8,7 +8,7 @@ public class Customer {
 	private String firstName;
 	
 	// validation rules
-	@NotNull()
+	@NotNull(message="is required")
 	@Size(min=1, message="is required")
 	private String lastName;
 
